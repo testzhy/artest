@@ -7,7 +7,7 @@ def hello_world(request):
     name = os.environ.get('NAME')
     if name == None or len(name) == 0:
         name = "world"
-    message = "JUST DO IT, " + name + "!\n"
+    message = "JUST DO IT right now 01/13/2023, " + name + "!\n"
     return Response(message)
 
 if __name__ == '__main__':
